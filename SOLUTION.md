@@ -1,7 +1,7 @@
 # IAM Basics Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** [Pragash KUMARAVEL]  
+**Date Completed:** [08-07-26]
 
 ---
 
@@ -255,5 +255,5 @@ $ aws s3 ls --profile alice
 
 ---
 
-**Completed By:** [Your Name]  
-**Date:** [Date]
+**Completed By:** [Pragash KUMARAVEL]  
+**Date:** [08-07-26]
