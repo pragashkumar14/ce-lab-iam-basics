@@ -190,7 +190,7 @@ $ aws s3 ls --profile alice
 
 ### 1. Why use groups instead of attaching policies directly to users?
 
-**Your Answer:**
+Due to the large number of staff management and staff permissions
 
 [Explain benefits: easier management, consistency, scalability, etc.]
 
@@ -198,7 +198,7 @@ $ aws s3 ls --profile alice
 
 ### 2. What are the risks of giving everyone AdministratorAccess?
 
-**Your Answer:**
+Accounts can be hacked, accidental deletion of the files, EC2 instance, due to compliance eg: Eu member data should stay in EU
 
 [Discuss: security risks, accidental changes, compliance issues, etc.]
 
@@ -206,7 +206,7 @@ $ aws s3 ls --profile alice
 
 ### 3. How would you organize IAM for 50 developers across 5 projects?
 
-**Your Answer:**
+Centralized acces management instead of 50 developers IM users we should create IAM user group this allows acces centrally.Create separate AWS accounts for different projects.
 
 [Propose structure: project-based groups, role-based access, tagging strategy, etc.]
 
@@ -214,7 +214,7 @@ $ aws s3 ls --profile alice
 
 ### 4. What happens if you delete an IAM user? Can you recover their permissions?
 
-**Your Answer:**
+it will be permanent removal and cant be recovered. Any inline policies attached specifically to that user are deleted, and they are removed from any IAM groups they belonged to.
 
 [Explain: user deletion is permanent, permissions can be recreated but history lost, etc.]
 
